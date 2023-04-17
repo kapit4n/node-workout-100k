@@ -2,7 +2,7 @@ import os
 import pathlib
 
 # config options
-extensions = ['.js', '.tsx']
+extensions = ['.js', '.ts']
 ignore_file = './src-ig'
 src_file = './src'
 readmeFileName = "./Readme.md"
@@ -23,6 +23,7 @@ def countLines(path):
 
 
 total = 0
+goal = 500
 
 fReadme.write("## Categories")
 
@@ -57,5 +58,7 @@ for cfile in os.listdir("."):
             total = total + otherTotal
 
 
-print(total)
+print(f"current: {total}")
+print(f'goal {goal} and {goal - total} to read it')
+
 fReadme.write("\n# Total \n" + str(total))
