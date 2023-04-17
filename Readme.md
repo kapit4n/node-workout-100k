@@ -6,8 +6,8 @@ index.js(22),
 S(22)
 
 ## FRAMEWORKS
-amazon-s3-03--7-2023.js(57), express-03-08-2023.js(15), 
-S(72)
+aws-lambda-04-17-2023.js(108), amazon-s3-03--7-2023.js(57), express-03-08-2023.js(15), 
+S(180)
 
 ## ALGORITHMS
 code-03-08-2023.js(10), code-03-09-2023.js(26), 
@@ -36,4 +36,4 @@ S(0)
 S(0)
 
 # Total 
-339
+447
